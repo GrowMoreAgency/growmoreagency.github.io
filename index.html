@@ -1,7 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrowMore Agency</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f59570;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #003F7A;
+        }
+        .logo {
+            max-width: 500px;
+        }
+        .tulips {
+            height: 150px;
+        }
+        .catalog-button {
+            display: inline-block;
+            margin: 30px 0;
+            padding: 15px 20px;
+            background: #1F71BD;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        .contact-info {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        hr {
+            margin: 15px 0;
+            border-top: 1px dashed #1F71BD;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                max-width: 85%;
+                margin: 20px auto;
+                padding: 15px;
+            }
+            h1, h2, h3 {
+                font-size: 20px;
+            }
+            .logo {
+                max-width: 250px;
+            }
+            .tulips {
+                height: 100px;
+            }
+            .catalog-button {
+                font-size: 14px;
+                padding: 10px 20px;
+            }
+            .contact-info {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="container">
+        <img src="logo.jpg" alt="GrowMore Agency Logo" class="logo">
+        <h1>Welcome to GrowMore Agency</h1>
+        <p>Your trusted supplier for hygiene industry products.</p>
+        <hr/>
+        <h2>Partner Brands</h1>
+        <a href="/catalogue.pdf" class="logo" target="_blank">
+            <img src="tulips_logo.png" alt="Tulips Catalogue" class="logo tulips">
+        </a>
+        <br/>
+        <a href="/catalogue.pdf" class="catalog-button" target="_blank">View Product Catalogue</a>
+        <hr/>
+        <div class="contact-info">
+            <p><strong>Contact Us:</strong></p>
+            <p><h3> Aman Kolhapure </h3> </p>
+            <p>Phone: 9284406565 / 9284975952</p>
+            <p>Email: growmoreagency24@gmail.com</p>
+            <p>Address: Golibar Maidan, Kasaba Bawada, Kolhapur, Maharashtra, India - 416 006</p>
+        </div>
+    </div>
 </body>
 </html>
